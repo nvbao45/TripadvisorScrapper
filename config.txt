@@ -1,0 +1,21 @@
+# output file name
+OUTPUT_FILE = "output/output.csv"
+
+# to use proxy change this to 'True'
+# https://www.sslproxies.org/
+USE_PROXY=False
+PROXY_SERVER=20.24.181.133:80
+
+# if 'True' this tool will scrape images
+GET_IMAGE=False
+
+#    in case of TripAdvisor doesn't have the restaurant's email
+# this tool will try to scape their email on their website
+GET_EMAIL_IN_WEBSITE=True
+
+
+MAX_THREAD=2
+
+
+CHROME_EXE="drivers/chromedriver.exe"
+HEADLESS_MODE=True
